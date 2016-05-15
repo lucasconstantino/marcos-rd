@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" href="stylesheets/jasmine.css")
+    script(src="test/lib/jasmine-2.2.0/jasmine.js")
+    script(src="test/lib/jasmine-2.2.0/jasmine-html.js")
+    script(src="test/lib/jasmine-2.2.0/boot.js")
+    script(src="test/lib/jasmine-2.2.0/jasmine-jquery.js")
+    script(src="test/lib/jasmine-2.2.0/jasmine-ajax.js")
+
+    script(src="test/src/Player.js")
+    script(src="test/src/Song.js")
+
+    script(src="test/spec/SpecHelper.js")
+    script(src="test/spec/appSpec.js")
+
+  body
+    #my-fixture
